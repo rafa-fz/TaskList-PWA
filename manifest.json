@@ -1,0 +1,9 @@
+{
+  "name": "Task List PWA",
+  "short_name": "Task List",
+  "description": "A simple task list application",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f3f3f3"
+}

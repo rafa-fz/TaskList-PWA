@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #f3f3f3;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.task-input input {
+  padding: 8px;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-input button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #0056b3;
+}
+
+h2, h3, p {
+  margin: 10px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+td {
+  font-size: 18px;
+}
+
+/* Estilos para botones */
+.delete-button {
+  margin-left: 200px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c00f0f;
+}
+
+.complete-button {
+  margin-left: 200px;
+  background-color: #06dc2d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complete-button:hover {
+  background-color: #008c1a;
+}
+
+/* Estilos para tareas completadas */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

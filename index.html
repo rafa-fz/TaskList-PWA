@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="/images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/Espe 100 Logo.png" alt="logo ESPE" height="80px" width="auto">
+        <h1>Programación Integrativa de Componentes WEB - 10054</h1>
+        <h2>Implementación de una Aplicación Web Progresiva (PWA)</h2>
+        <h3>Grupo 05</h3>
+        <p>Integrantes:</p>
+        <p>- Cardenas Sebastian</p>
+        <p>- Fonseca Rafael</p>
+        <h1>Lista de Tareas</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Añade una tarea">
+            <button id="addTaskButton">Agregar</button>
+        </div>
+        <table id="taskTable">
+          <thead>
+            <tr>
+              <th>Tareas</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="taskList">
+            <!-- Aquí se agregarán las filas de tareas -->
+          </tbody>
+        </table>
+    </header>
+    <ul id="taskList" class="task"></ul>
+    <script src="./js/app.js"></script>
+</body>
+</html>
