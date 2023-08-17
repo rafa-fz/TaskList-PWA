@@ -62,6 +62,9 @@ h2, h3, p {
 
 td {
   font-size: 18px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
 }
 
 /* Estilos para botones */
